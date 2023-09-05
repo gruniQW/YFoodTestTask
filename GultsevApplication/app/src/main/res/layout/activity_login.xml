@@ -18,7 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:inputType="textPassword|textVisiblePassword" />
 
     <Button
         android:id="@+id/ButtonLogin"
